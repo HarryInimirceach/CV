@@ -1,5 +1,4 @@
 body {
-  min-height: 100vh;
   background: linear-gradient(
     -45deg,
     #d11e80 0%,
@@ -124,4 +123,33 @@ body {
 
 .navigation a:hover {
   animation: font_random_color 2s infinite ease-in-out;
+}
+
+.main_block {
+  margin: 150px auto;
+  width: 60em;
+  height: 100em;
+  background: rgba(137, 24, 160, 0.208);
+  border-radius: 30px;
+  box-shadow: 0px 0px 29px 10px rgba(84, 46, 97, 0.459);
+  padding-top: 0.1px;
+  color: rgba(238, 211, 242, 0.874);
+  font-size: 25px;
+}
+
+.main_block .about_header {
+  color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.my_info {
+  margin: 80px 50px;
+}
+
+.shrek_img {
+  border-radius: 70px;
+  height: 300px;
+  float: right;
 }
