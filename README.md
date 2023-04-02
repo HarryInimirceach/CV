@@ -1,2 +1,2 @@
 # CV
-The CV project
+CV
