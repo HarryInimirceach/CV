@@ -87,7 +87,7 @@ body {
 .nav_contact::before {
   position: absolute;
   top: 40px;
-  right: 75px;
+  right: 72px;
   content: "";
   width: 160px;
   height: 6px;
@@ -109,7 +109,7 @@ body {
 .nav_contact::before {
   position: absolute;
   top: 40px;
-  right: 65px;
+  right: 63px;
   content: "";
   width: 150px;
   height: 6px;
@@ -137,19 +137,58 @@ body {
   font-size: 25px;
 }
 
-.main_block .about_header {
+.main_block .header {
   color: aliceblue;
-  text-align: center;
-  margin-top: 50px;
   font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 30px;
 }
 
 .my_info {
   margin: 80px 50px;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.line::before {
+  position: absolute;
+  height: 10px;
+  top: 580px;
+  content: "";
+  background: rgba(122, 14, 199, 0.276);
+  box-shadow: 0px 0px 29px 10px rgba(84, 46, 97, 0.242);
+  width: 100%;
+  border-radius: 30px;
+  pointer-events: none;
 }
 
 .shrek_img {
   border-radius: 70px;
   height: 300px;
   float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.section_block {
+  background-color: #8626af8e;
+  border-radius: 30px;
+  box-shadow: 0px 0px 29px 10px rgba(66, 68, 90, 0.511);
+  margin: 10px;
+  border-bottom: 0.1px solid rgba(0, 0, 0, 0);
+}
+
+.section_block:hover {
+  background-color: #8626af8e;
+  border-radius: 30px;
+  box-shadow: 0px 0px 29px 10px rgb(66, 68, 90);
+}
+
+.block_education {
+  margin-top: 178px;
+}
+
+.edu_list li {
+  margin: 30px 20px;
 }
