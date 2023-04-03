@@ -11,6 +11,7 @@ body {
   animation: background_color 20s ease infinite;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 @keyframes background_color {
@@ -147,17 +148,15 @@ body {
 
 .my_info {
   margin: 80px 50px;
-  position: relative;
-  padding-bottom: 40px;
 }
 
 .line::before {
   position: absolute;
   height: 10px;
-  top: 580px;
+  bottom: -90px;
   content: "";
-  background: rgba(122, 14, 199, 0.276);
-  box-shadow: 0px 0px 29px 10px rgba(84, 46, 97, 0.242);
+  background: rgba(146, 13, 191, 0);
+  box-shadow: 0px 0px 29px 10px rgba(84, 46, 97, 0.384);
   width: 100%;
   border-radius: 30px;
   pointer-events: none;
@@ -172,7 +171,8 @@ body {
 }
 
 .section_block {
-  background-color: #8626af8e;
+  background-color: rgba(134, 38, 175, 0.466);
+  position: relative;
   border-radius: 30px;
   box-shadow: 0px 0px 29px 10px rgba(66, 68, 90, 0.511);
   margin: 10px;
@@ -190,5 +190,33 @@ body {
 }
 
 .edu_list li {
-  margin: 30px 20px;
+  margin: 80px 20px;
+}
+
+.block_skills {
+  margin-top: 178px;
+}
+
+.block_skills div {
+  margin-bottom: 0;
+}
+
+.skill_list li {
+  margin: 40px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 101px;
+  border-radius: 13px 13px 0 0;
+  padding: 10px;
+  margin: auto;
+}
+
+.footer img {
+  height: 30px;
+  border-radius: 100%;
+  padding: 0;
+  margin-bottom: -10px;
 }
